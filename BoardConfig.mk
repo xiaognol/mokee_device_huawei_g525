@@ -21,6 +21,6 @@
 -include device/huawei/c8813q/BoardConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := g525
-
+TARGET_OTA_ASSERT_DEVICE := g525,G525
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/g525/bluetooth
