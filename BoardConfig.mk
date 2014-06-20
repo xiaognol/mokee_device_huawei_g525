@@ -19,7 +19,10 @@
 
 # Inherit from the u8833 definitions
 -include device/huawei/c8813q/BoardConfig.mk
-
+# Recovery
+#BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/g525/recovery/graphics_cn.c
+#BOARD_USE_CUSTOM_RECOVERY_FONT := \"fontcn28_15x40.h\"
+DEVICE_RESOLUTION := 540x960
 TARGET_BOOTLOADER_BOARD_NAME := g525
 # TARGET_OTA_ASSERT_DEVICE := g525,G525
 # Bluetooth
