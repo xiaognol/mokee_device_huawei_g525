@@ -26,4 +26,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.confg.hw_appsbootversion=G525V-U004_4_APPSBOOT \
     ro.confg.hw_appversion=G525-U00V4_4_KERNEL
 
-$(call inherit-product-if-exists, vendor/huawei/g525/g525-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/g525/G525-U00-vendor.mk)
